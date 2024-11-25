@@ -1,0 +1,36 @@
+.clock{
+   position: relative;
+   margin: auto;
+   height: 40vw;
+   width: 40vw;
+   /* background: linear-gradient(skyblue,gray); */
+   background: url("pngwing.com.png");
+   background-size: 100%;
+   border-radius: 50%;
+   
+}
+#hours, #minutes, #seconds{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hours{
+width:1.9%;
+height: 25%;
+top: 25.5%;
+left: 49%;
+}
+#minutes{
+width: 1.4%;
+height: 34%;
+top: 15.7%;
+left: 49%;
+
+}
+#seconds{
+width: 1%;
+height: 40%;
+top: 10%;
+left: 48.5%;
+}
